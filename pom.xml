@@ -127,10 +127,15 @@
             </repositories>
 
             <distributionManagement>
-                <snapshotRepository>
-                    <id>OSIAM-NG-SNAPSHOT-repository</id>
+                <repository>
+                    <id>osiam-repository</id>
                     <name>public evolvis release repository</name>
-                    <url>scpexe://maven-repo.evolvis.org:/var/www/maven_repo/snapshots/</url>
+                    <url>scpexe://maven-repo.evolvis.org:/var/www/maven_repo/releases</url>
+                </repository>
+                <snapshotRepository>
+                    <id>osiam-snapshot-repository</id>
+                    <name>public evolvis snapshot repository</name>
+                    <url>scpexe://maven-repo.evolvis.org:/var/www/maven_repo/snapshots</url>
                 </snapshotRepository>
             </distributionManagement>
 
