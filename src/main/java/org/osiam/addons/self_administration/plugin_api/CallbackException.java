@@ -1,4 +1,4 @@
-package org.osiam.addons.selfadministration.plugin.exception;
+package org.osiam.addons.self_administration.plugin_api;
 
 /**
  * Application exception indicating that callback steps failed.

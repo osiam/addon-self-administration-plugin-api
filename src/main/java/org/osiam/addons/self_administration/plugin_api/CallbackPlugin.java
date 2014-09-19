@@ -1,6 +1,5 @@
-package org.osiam.addons.selfadministration.plugin.api;
+package org.osiam.addons.self_administration.plugin_api;
 
-import org.osiam.addons.selfadministration.plugin.exception.CallbackException;
 import org.osiam.resources.scim.User;
 
 /**
