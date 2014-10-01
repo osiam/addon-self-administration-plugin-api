@@ -1,0 +1,7 @@
+# OSIAM addon-self-administration-plugin-api
+
+## 1.2 - 2014-09-30
+- This project hasn't any changes - release because of fixes/features in server and addons
+
+## 1.1 - 2014-09-22
+- introduced the plugin-api as an own repo, unplugged from the addon-self-administration
