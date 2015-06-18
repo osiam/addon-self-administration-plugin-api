@@ -1,5 +1,15 @@
 # OSIAM addon-self-administration-plugin-api
 
+## 1.4 - 2015-06-18
+
+### Changes
+
+- Bump scim-schema to version 1.4
+
+### Other
+
+- Rename `RELEASES.NOTES` to `CHANGELOG.md`
+
 ## 1.3.2 - 2014-11-24
 - release because of fixes in addon-administration
 
