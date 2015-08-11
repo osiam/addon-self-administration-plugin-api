@@ -1,5 +1,11 @@
 # OSIAM addon-self-administration-plugin-api
 
+## Unreleased
+
+### Changes
+
+- Bump scim-schema to version 1.5
+
 ## 1.4 - 2015-06-18
 
 ### Changes
