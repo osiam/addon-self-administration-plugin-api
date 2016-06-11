@@ -60,9 +60,14 @@
     </scm>
 
     <distributionManagement>
+        <repository>
+            <id>releases</id>
+            <name>osiam-releases</name>
+            <url>https://api.bintray.com/maven/osiam/OSIAM/org.osiam:addon-self-administration-plugin-api/;publish=1</url>
+        </repository>
         <snapshotRepository>
             <id>snapshots</id>
-            <name>oss-jfrog-artifactory-snapshots</name>
+            <name>osiam-snapshots</name>
             <url>https://oss.jfrog.org/artifactory/oss-snapshot-local</url>
         </snapshotRepository>
     </distributionManagement>
