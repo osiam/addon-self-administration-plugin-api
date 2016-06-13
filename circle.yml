@@ -15,11 +15,11 @@ deployment:
     branch: master
     commands:
       - wget https://raw.githubusercontent.com/osiam/circleci/master/settings.xml
-      - mvn deploy -s settings.xml -DskipTests
+      - mvn deploy:deploy-file -DrepositoryId=snapshots -Durl=https://oss.jfrog.org/artifactory/oss-snapshot-local -s settings.xml
       - curl -X POST https://circleci.com/api/v1/project/osiam/addon-self-administration/tree/master?circle-token=$CIRCLECI_ADDON_SELF_ADMINISTRATION_TRIGGER_TOKEN
   release:
     tag: /.*/
     owner: osiam
     commands:
       - wget https://raw.githubusercontent.com/osiam/circleci/master/settings.xml
-      - mvn deploy -s settings.xml -DskipTests
+      - mvn deploy:deploy-file -DrepositoryId=releases -Durl=https://api.bintray.com/maven/osiam/OSIAM/org.osiam:addon-self-administration-plugin-api/;publish=1 -s settings.xml
