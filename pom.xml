@@ -68,14 +68,17 @@
         <dependency>
             <groupId>org.osiam</groupId>
             <artifactId>connector4java</artifactId>
-            <version>1.9-SNAPSHOT</version>
+            <version>1.9.CR1</version>
             <scope>provided</scope>
         </dependency>
     </dependencies>
 
     <repositories>
         <repository>
-            <snapshots />
+            <snapshots/>
+            <releases>
+                <enabled>false</enabled>
+            </releases>
             <id>osiam-snapshots</id>
             <name>libs-snapshot</name>
             <url>http://oss.jfrog.org/artifactory/libs-snapshot</url>
