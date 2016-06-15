@@ -1,5 +1,15 @@
 # OSIAM addon-self-administration-plugin-api
 
+## Unreleased
+
+### Changes
+
+- Replace dependency on scim-schema with connector4java
+
+### Updates
+
+- OSIAM Connector4Java 1.9
+
 ## 1.5 - 2015-12-25
 
 ### Changes
