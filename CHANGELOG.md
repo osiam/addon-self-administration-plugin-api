@@ -5,6 +5,7 @@
 ### Changes
 
 - Replace dependency on scim-schema with connector4java
+- The current snapshot version is now `latest-SNAPSHOT` for all upcoming versions.
 
 ### Updates
 
