@@ -29,6 +29,10 @@
     <artifactId>addon-self-administration-plugin-api</artifactId>
     <version>latest-SNAPSHOT</version>
 
+    <prerequisites>
+        <maven>3.0.4</maven>
+    </prerequisites>
+
     <name>Plugin API registration</name>
     <description>The plugin API registration for the OSIAM addon-self-administration</description>
     <url>https://github.com/osiam/addon-self-administration-plugin-api</url>
