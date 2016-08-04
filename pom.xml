@@ -72,7 +72,7 @@
         <dependency>
             <groupId>org.osiam</groupId>
             <artifactId>connector4java</artifactId>
-            <version>latest-SNAPSHOT</version>
+            <version>1.9</version>
             <scope>provided</scope>
         </dependency>
     </dependencies>
