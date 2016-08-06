@@ -1,6 +1,6 @@
 # OSIAM addon-self-administration-plugin-api
 
-## Unreleased
+## 1.6 - 2016-08-06
 
 ### Changes
 
